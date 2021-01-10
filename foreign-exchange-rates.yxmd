@@ -1,0 +1,1444 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="135">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2656.5" y="621.5" width="451" height="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Union results from two branches of the workflow, and join to the data that needs to be converted. Use the Formula Tool to convert the values.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="250" g="143" b="232" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="744" y="396" width="180" height="348" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Checks whether the request is for a period or one date (latest or a particular date in the past)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="137" g="197" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="384" y="396" width="348" height="348" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Connect to the API and get the list of exchange rates based on the attributes in the URL.
+
+Use JSON parse tool to parse the response from the API</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="128" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="247.5" y="82.5" width="852" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Extracting foreign exchange rates</Text>
+          <Font name="Verdana" size="27.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="5.5" y="16.5" width="242" height="209" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="258.9999" y="168" width="636" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Workflow built by: Anya Prosvetova / The Information Lab UK</Text>
+          <Font name="Verdana" size="9.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="258.9999" y="192" width="636" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Verdana" size="9.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="216" width="263" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Documentation guide:</Text>
+          <Font name="Verdana" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="324" width="264" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Blue comment box for data preparation, manipulation and transformation</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="137" g="197" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="384" width="264" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Purple comment box for Joins and Unions</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="250" g="143" b="232" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="444" width="264" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Grey comment box for interface tools</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Silver" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="504" width="264" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Orange comment box for test tools</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="128" b="0" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="564" width="264" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Red comment box for to do lists</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="166" b="166" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="624" width="264" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Yellow comment box for notes and WIP</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Yellow" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="264" width="264" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Green comment box for Input and Outputs</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="128" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+        <Position x="516" y="492" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URLField>URL</URLField>
+          <OutputMode>String</OutputMode>
+          <CodePage>65001</CodePage>
+          <EncodeURLs value="True" />
+          <Headers>
+            <NameValues />
+            <Fields orderChanged="False">
+              <Field name="URL" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </Fields>
+          </Headers>
+          <Payload>
+            <HTTPAction>GET</HTTPAction>
+            <QueryStringBodyMode>Compose</QueryStringBodyMode>
+            <ComposeNameValues />
+            <ComposeFields orderChanged="False">
+              <Field name="URL" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </ComposeFields>
+          </Payload>
+          <UserName />
+          <Password />
+          <numConnections>2</numConnections>
+          <Timeout>600</Timeout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="395" y="492" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="URL" />
+          </Fields>
+          <Data>
+            <r>
+              <c>https://api.exchangeratesapi.io/history?start_at=2020-10-01&amp;end_at=2020-10-31&amp;symbols=GBP</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="635" y="420" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ANNAPR~1\AppData\Local\Temp\Engine_28664_0c8500af60f244c88f5e324b529e128d_\Engine_16716_0921611107a0427cbc2b3a83216f7478_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JSONParse.JSONParse">
+        <Position x="648" y="492" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JSON_Field>DownloadData</JSON_Field>
+          <IncludeInOutput value="False" />
+          <SingleField value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONParse" />
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1020" y="60" width="1020" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[This workflow extracts foreign exchange rates from the Foreign Exchange Rates API. See the documentation here: https://exchangeratesapi.io/. Rates are quoted against the Euro by default. 
+
+Update the URL in the Text Input tool depending on the needed output:
+
+ - to get the latest foreign exchange rates: 
+                    https://api.exchangeratesapi.io/latest
+
+ - to get historical rates for any day since 1999s, for example 1 December 2010: 
+                    https://api.exchangeratesapi.io/2010-01-12
+
+ - to quote against a different currency, for example USD: 
+                    https://api.exchangeratesapi.io/latest?base=USD
+
+ - to request specific exchange rates, for example USD and GBP: 
+                    https://api.exchangeratesapi.io/latest?symbols=USD,GBP
+
+ - to get historical rates for a time period, for example October 2020: 
+                   https://api.exchangeratesapi.io/history?start_at=2020-10-01&end_at=2020-10-31
+
+Make sure to use the Cache and Run feature whenever possible to limit the number of requests sent to the API.  ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Yellow" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="792" y="492" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!Contains([URL],"history")</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>NotContains</Operator>
+            <Field>URL</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-11-25 11:52:58</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>history</Operand>
+              <StartDate>2020-11-25 11:52:58</StartDate>
+              <EndDate>2020-11-25 11:52:58</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!Contains([URL],"history")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2689.5" y="654.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="Currency" size="3" source="Transpose:" type="String" column="1" />
+                <Field description="Formula: IF [Value]=Null() &#xA;THEN [Row-1:Value]&#xA;ELSE [Value]&#xA;ENDIF" name="Rate" source="Formula: IF [Value]=Null() &#xA;THEN [Row-1:Value]&#xA;ELSE [Value]&#xA;ENDIF" type="Double" column="2" />
+                <Field description="Formula: if [rowSource] == &quot;2source&quot;&#xA;THEN [Row-1:KeyDateTime]&#xA;ELSE [KeyDateTime]&#xA;ENDIF" name="Date" source="Formula: if [rowSource] == &quot;2source&quot;&#xA;THEN [Row-1:KeyDateTime]&#xA;ELSE [KeyDateTime]&#xA;ENDIF" type="Date" column="3" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from JSON_Name" name="Currency" size="2147483647" source="TextToColumns: Parsed from JSON_Name" type="V_String" column="1" />
+                <Field name="Rate" source="JSONParse: " type="Float" column="2" />
+                <Field description="Formula: if [Date]=Null() then [Row-1:Date] else [Date]&#xA;endif" name="Date" source="Formula: if [Date]=Null() then [Row-1:Date] else [Date]&#xA;endif" type="Date" column="3" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2601.5" y="379.5" width="187" height="194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sales in Euro for October 2020 (mockup data)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="128" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2656.5" y="412.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">G:\My Drive\External events\Foreign exchange rates API in Alteryx - 12-01-2021\European sales_October 2020.xlsx|||`data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>European sales_October 2020.xlsx
+Query=`data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order date" source="File: G:\My Drive\External events\Foreign exchange rates API in Alteryx - 12-01-2021\European sales_October 2020.xlsx|||`data$`" type="Date" />
+            <Field name="Country" size="255" source="File: G:\My Drive\External events\Foreign exchange rates API in Alteryx - 12-01-2021\European sales_October 2020.xlsx|||`data$`" type="V_String" />
+            <Field name="Department" size="255" source="File: G:\My Drive\External events\Foreign exchange rates API in Alteryx - 12-01-2021\European sales_October 2020.xlsx|||`data$`" type="V_String" />
+            <Field name="Order value in Euro" source="File: G:\My Drive\External events\Foreign exchange rates API in Alteryx - 12-01-2021\European sales_October 2020.xlsx|||`data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="133">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2887.5" y="643.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Order date" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Date" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Currency" selected="False" rename="Right_Currency" input="Right_" />
+                <SelectField field="Right_Date" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="134">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2997.5" y="643.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Order value in Euro]*[Rate]" field="Order value in GBP" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Order value in GBP = [Order value in Euro]*[Rate]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="972" y="840" width="1599" height="422.0005" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Extracting historical exchange rates for a particular period</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="97">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1742" y="937" width="804" height="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[First, generate a unique row number [Record ID], and transpose to get you name and value column using [Record ID] as the key. Then, use the Multi-row formula to fill in sequential values for each transposed row [ColumnNumber], grouped by [Record ID].  This gives you the fields to sort by to return to your original row/column order.  
+
+Then sort by [Name] and [Record ID].  This gives you all the values that were in one column originally following each other in the name/value pair of columns. Use the Multi-row formula to fill in cells with missing exchange rates, make sure to group by Name. 
+
+Sort your values by [Record ID] and [ColumnNumber] to get the original order. Then use the Crosstab tool to get the original rows and columns back.  ]]></Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor r="137" g="197" b="255" />
+              <Shape shape="0" />
+              <Justification Justification="7" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1454" y="937" width="264" height="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use the Multi-row formula to fill in cells with missing exchange rates.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor r="137" g="197" b="255" />
+              <Shape shape="0" />
+              <Justification Justification="7" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="997" y="937.0004" width="433" height="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Filter out rows with exchange rates values only from the parsed JSON response, split the field to have the date and the rate in separate columns.
+
+The last step here removes fields we won't need further.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor r="137" g="197" b="255" />
+              <Shape shape="0" />
+              <Justification Justification="7" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1033" y="985.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>Contains([JSON_Name],"rates")</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>JSON_Name</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2020-11-11 15:07:10</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>rates</Operand>
+                  <StartDate>2020-11-11 15:07:10</StartDate>
+                  <EndDate>2020-11-11 15:07:10</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([JSON_Name],"rates")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="1141" y="973.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>JSON_Name</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>JSON_Name</RootName>
+              <Delimeters value="." />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1238" y="973.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="URL" selected="False" />
+                <SelectField field="DownloadHeaders" selected="False" />
+                <SelectField field="JSON_Name" selected="False" />
+                <SelectField field="JSON_ValueString" selected="True" rename="Rate" type="Float" size="4" />
+                <SelectField field="JSON_Name1" selected="False" />
+                <SelectField field="JSON_Name2" selected="True" rename="Date" type="Date" size="10" />
+                <SelectField field="JSON_Name3" selected="True" rename="Currency" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings>
+            <Position x="1513" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Drop Down KeyDateTime picker">Date</Value>
+              <Value name="Drop Down Interval">Day</Value>
+              <Value name="Numeric Up Down Increment">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\TimeSeriesFiller.yxmc" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1610" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="OriginalDateTime" selected="False" />
+                <SelectField field="FlagGeneratedRow" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="1346" y="973.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Date" />
+              </GroupFields>
+              <HeaderField field="Currency" />
+              <DataField field="Rate" />
+              <Methods>
+                <Method method="Sum" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from JSON_Name" name="Date" source="CrossTab:Group:Sum:" type="Date" />
+                <Field name="GBP" source="CrossTab:Header:Currency:GBP:Sum:" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Date" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="1862" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="RecordID" />
+                <Field field="Date" />
+              </KeyFields>
+              <DataFields>
+                <Field field="RecordID" selected="False" />
+                <Field field="Date" selected="False" />
+                <Field field="GBP" selected="True" />
+                <Field field="USD" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="89">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1754" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="1958" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>RowNumber</UpdateField_Name>
+              <CreateField_Name>ColumnNumber</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>NULL</OtherRows>
+              <NumRows value="1" />
+              <Expression><![CDATA[if isnull([Row-1:ColumnNumber]) then
+	1
+else
+	[Row-1:ColumnNumber]+1
+endif
+]]></Expression>
+              <GroupByFields>
+                <Field field="RecordID" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Add ColumnNumber</AnnotationText>
+              <DefaultAnnotationText>if isnull([Row-1:ColumnNumber]) then
+	1
+else
+	[Row-1:ColumnNu...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="2054" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Name" order="Ascending" />
+                <Field field="RecordID" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Name - Ascending
+RecordID - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="2172.5" y="973.5" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="True" />
+              <UpdateField_Name>Value</UpdateField_Name>
+              <CreateField_Name>New Field</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>IF [Value]=Null() 
+THEN [Row-1:Value]
+ELSE [Value]
+ENDIF</Expression>
+              <GroupByFields>
+                <Field field="Name" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [Value]=Null() 
+THEN [Row-1:Value]
+ELSE [Value]
+ENDIF</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="2293.5" y="973.5" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="RecordID" order="Ascending" />
+                <Field field="ColumnNumber" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>RecordID - Ascending
+ColumnNumber - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2403.5" y="973.5" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RecordID" selected="False" />
+                <SelectField field="Name" selected="True" rename="Currency" />
+                <SelectField field="Value" selected="True" rename="Rate" />
+                <SelectField field="Date" selected="True" />
+                <SelectField field="ColumnNumber" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="998" y="889.0001" width="780" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Extracting historical exchange rates for a particular period (/history)</Text>
+              <Font name="Verdana" size="12" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="972" y="396" width="830" height="422" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Extracting the latest rates or rates for a particular date</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="123">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="997" y="493" width="348" height="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Extracting the date from the response.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor r="137" g="197" b="255" />
+              <Shape shape="0" />
+              <Justification Justification="7" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1357" y="493" width="409" height="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Filter out rows with exchange rates values only from the parsed JSON response, split the field to have the date and the rate in separate columns.
+
+The last step here removes fields we won't need further.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor r="137" g="197" b="255" />
+              <Shape shape="0" />
+              <Justification Justification="7" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="102">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1405" y="529" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>Contains([JSON_Name],"rates")</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>JSON_Name</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2020-11-11 15:07:10</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>rates</Operand>
+                  <StartDate>2020-11-11 15:07:10</StartDate>
+                  <EndDate>2020-11-11 15:07:10</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([JSON_Name],"rates")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="1525" y="529" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>JSON_Name</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>JSON_Name</RootName>
+              <Delimeters value="." />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1645" y="529" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="JSON_Name2" selected="True" rename="Currency" type="V_String" size="1073741823" />
+                <SelectField field="URL" selected="False" />
+                <SelectField field="DownloadHeaders" selected="False" />
+                <SelectField field="JSON_Name" selected="False" />
+                <SelectField field="JSON_ValueString" selected="True" rename="Rate" type="Float" size="4" />
+                <SelectField field="Date" selected="True" />
+                <SelectField field="JSON_Name1" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="120">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1021" y="529" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="if [JSON_Name]='date' then [JSON_ValueString] else Null() endif" field="Date" size="10" type="Date" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Date = if [JSON_Name]='date' then [JSON_ValueString] else Null() endif
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="121">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="1225" y="529" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="True" />
+              <UpdateField_Name>Date</UpdateField_Name>
+              <CreateField_Name>New Field</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>if [Date]=Null() then [Row-1:Date] else [Date]
+endif</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>if [Date]=Null() then [Row-1:Date] else [Date]
+endif</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="122">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1117" y="529" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Date" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Date - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="997" y="445" width="780" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Extracting the latest rates (/latest) or rates for a particular date (for example, /2010-01-12)</Text>
+              <Font name="Verdana" size="12" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="False" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="True" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Output" />
+      <Destination ToolID="133" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="133" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Join" />
+      <Destination ToolID="134" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="True" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Filled Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="77" Connection="Unfilled Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="104" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="True" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="122" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="121" Connection="Output" />
+      <Destination ToolID="102" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="122" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Foreign Exchange Rates</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author>Anya Prosvetova</Author>
+      <Company>The Information Lab UK</Company>
+      <Copyright />
+      <DescriptionLink actual="" displayed="Documentation" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
